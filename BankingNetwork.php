@@ -65,7 +65,7 @@
       <a class="navbar-brand" href="#">Logo</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
-      <!-- <ul class="nav navbar-nav">
+       <ul class="nav navbar-nav">
         <li class="active"><a href="#">Home</a></li>
         <li><a href="#">About</a></li>
         <li><a href="#">Profile</a></li>
@@ -133,7 +133,7 @@
     <!-- Popup Div Starts Here -->
     <div id="popupContact">
       <!-- Login Form -->
-      <form name="myForm" action="<?php echo base_url()?>Bank/authenticate" method="POST" ;">
+      <form name="myForm" action="<?php echo base_url()?>Bank/authenticate" method="POST">
         <img id="close" src="file:///C:/xampp/htdocs/NetworkBanking/media/images/close.png" width=22px height=22px onclick ="div_login_hide()">
         <h2> Login</h2>
         <hr>
